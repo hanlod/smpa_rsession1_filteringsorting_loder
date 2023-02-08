@@ -49,7 +49,8 @@ impeach
 ```{r}
 
 
-
+impeach %>% 
+  filter(for_impeachment == "NO")
 
 
 
@@ -59,7 +60,8 @@ impeach
 
 ```{r}
 
-
+impeach %>% 
+  filter(for_impeachment == "NO", p16winningparty == "R")
 
 
 
@@ -69,7 +71,8 @@ impeach
 
 ```{r}
 
-
+impeach %>% 
+  filter(for_impeachment == "NO", p16winningparty == "R", p12winningparty == "R")
 
 
 
@@ -80,7 +83,8 @@ impeach
 ```{r}
 
 
-
+impeach %>% 
+  
 
 
 ```

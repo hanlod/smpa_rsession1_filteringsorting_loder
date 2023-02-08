@@ -1,7 +1,7 @@
 ---
 title: "My First Quarto Document"
 author: "Aaron Kessler"
-date: "2/7/2023"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
 format:
   html:
     self-contained: true
@@ -45,9 +45,13 @@ head(txhousing)
 
 ```
 
-How do I make one of those? Either go to Insert -\> R... or just CTRL/CMD + SHIFT + I
+How do I make one of those? Either go to Insert -\> R... or just CTRL/ALT + SHIFT + I
 
 Let's try it...
+
+```{r}
+
+```
 
 ```{r}
 

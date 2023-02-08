@@ -43,10 +43,10 @@ c("Billy","Sallie")
 
 myobject <- 1
 
-#now I can tell R to give me the value of myobject by referring to it by its name
-myobject
+# now I can tell R to give me the value of myobject by referring to it by its name
+myobject * 10
 
-#let's try another
+# let's try another
 mynames <- c("Billy","Sallie","Tony")
 
 mynames
@@ -61,6 +61,8 @@ mynames
 mynames[1]
 
 mynames[3]
+
+mynames[2]
 
 
 # Now by itself, R has certain capabilities built in.
